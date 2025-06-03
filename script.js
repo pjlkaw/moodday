@@ -9,6 +9,7 @@ function header_menu() {
 
     btn.addEventListener('click', () => {
         menu.classList.toggle("hidden")
+        menu.classList.toggle("show")
     })
 
 }
